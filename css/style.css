@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+:root {
+    --font-primary: 'Ubuntu', sans-serif;
+    --bg-primary: #1a1a1a;
+    --clr-text: #ffffff;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/bg/scuffedstatic_blue_1920x1234.jpg");
+    object-fit: cover;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+/*  ==============
+    navigation bar
+    ==============  */
+header div {
+    display: grid;
+    position: relative;
+    grid-template-columns: 10% auto 5%;
+    grid-auto-rows: 30px auto 20px;
+    grid-template-areas:
+        ".... logo header ......"
+        "....     main    ......"
+        "footer footer footer footer";
+}
+
+.main-header {
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    opacity: 0.7;
+    background-color: lightcyan;
+}
+
+.main-logo {
+    grid-column: 1;
+    position: relative;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    justify-self: center;
+    /* transform: rotate3d(0, 0, 0, 0turn);
+    animation: logo 500ms ease-in-out infinite alternate-reverse both; */
+}
+
+.main-logo {
+    transform: rotate3d(0, 0, 0, 0turn);
+    animation: logo 4000ms linear infinite forwards;
+
+
+}
+
+@keyframes logo {
+    0% {
+        transform: rotate3d(0, 0, 0, 0turn)
+    }
+
+    100% {
+        transform: rotate3d(0, 1, 0, 1turn)
+    }
+}
+
+nav {
+    grid-column: 2;
+    top: 0;
+    left: 0;
+    justify-self: end;
+    align-self: center;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li,
+a {
+    display: inline-flex;
+    text-decoration: none;
+    margin-left: 1em;
+    margin-right: 1rem;
+
+}
+
+nav a {
+    color: #3d3c38;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* ===========
+     content
+=========== */
+h2 {
+    text-align: center;
+}
