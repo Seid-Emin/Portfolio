@@ -1,0 +1,151 @@
+:root {
+    --font-primary: 'Montserrat', sans-serif;
+    --clr-black: #141414;
+    --clr-white: #f0f0f0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-primary);
+    color: #f0f0f0;
+    background-color: #141414;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.upperCase {
+    text-transform: uppercase;
+}
+
+.intro-window {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.intro-wrap {
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    position: relative;
+}
+
+.intro-divide-line {
+    position: absolute;
+    left: 50%;
+    bottom: -100%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 1px;
+    background-color: #141414;
+    z-index: 10;
+}
+
+.intro-text {
+    font-size: 12px;
+    font-weight: 700;
+    color: #141414;
+    margin-bottom: 10px;
+    opacity: 0;
+    position: absolute;
+    z-index: 9;
+}
+
+.intro-text1 {
+    padding-top: 100px;
+}
+
+.intro-text2 {
+    padding-top: 130px;
+}
+
+.intro-text3 {
+    padding-top: 160px;
+}
+
+.intro-description {
+    font-size: 14px;
+    line-height: 24px;
+    width: 330px;
+    text-align: center;
+    bottom: 150px;
+}
+
+.intro-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 60px;
+    height: 50px;
+    width: 140px;
+    border: 1px solid rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .1s ease-in;
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+.intro-button:hover {
+    background-color: rgb(240, 240, 240);
+    text-shadow: 1px 0 0 #141414;
+    color: #141414;
+    font-weight: bold;
+}
+
+.intro-description,
+.intro-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.introSlide {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #f0f0f0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    transition: all 1000ms cubic-bezier(1, -0.01, 0.08, 0.89);
+}
+
+.introSlideLeft {
+    left: 0;
+}
+
+.introSlideRight {
+    right: 0;
+}
+
+
+@media screen and (max-width: 400px) {
+    .Intro-Description {
+        width: 300px;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .Intro-Button {
+        bottom: 90px;
+    }
+
+    .Intro-Description {
+        bottom: 180px;
+    }
+}
