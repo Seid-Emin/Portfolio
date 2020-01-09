@@ -20,7 +20,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../img/bg/scuffedstatic_blue_1920x1234.jpg");
+    background: url("../img/bg/scuffedstatic_blue_1920x1234.jpg");
     object-fit: cover;
 }
 
