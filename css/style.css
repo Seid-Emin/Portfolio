@@ -55,6 +55,7 @@ html {
     top: 0;
     bottom: 0;
     z-index: 100;
+    transition: all 1500ms cubic-bezier(1, -0.01, 0.08, 0.89);
 }
 
 
@@ -66,6 +67,17 @@ html {
     right: -100%;
 }
 
+.leftShow {
+    left: 0;
+}
+
+.rightShow {
+    right: 0;
+}
+
+.displayNone {
+    display: none;
+}
 
 /* MAIN CONTENT START FROM HERE */
 .content {
@@ -75,6 +87,10 @@ html {
     position: relative;
     background-color: transparent;
     opacity: 0;
+}
+
+.opacityShow {
+    opacity: 1;
 }
 
 .portfolio-logo {

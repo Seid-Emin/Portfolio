@@ -1,46 +1,38 @@
 $(document).ready(function () {
-    // $('.intro-text').delay(500).animate({
-    //     opacity: 1
-    // }, 1000, "linear", function () {
-    //     $('.intro-text1').delay(2000).fadeOut(400, 0);
-    //     $('.intro-text2').delay(2200).fadeOut(400, 0);
-    //     $('.intro-text3').delay(2400).fadeOut(400, 0);
-    // });
-    var timeOuts = [500, 1000, 1200, 1400, 1600, 2000, 2600, 3400, 4300];
-    $('.intro-text').addClass('opacityShow').delay(timeOuts[1]).queue(function () {
+    var introText = $('.intro-text');
+    var introText1 = $('.intro-text1');
+    var introText2 = $('.intro-text2');
+    var introText3 = $('.intro-text3');
+    var timeOuts = [700, 1000, 2200, 2400, 2600, 4400, 5300];
+
+    //    Text Show and hide
+    setTimeout(function () {
+        introText.addClass('opacityShow');
         setTimeout(function () {
-            $('.intro-text1').addClass('opacityHide');
+            introText1.addClass('opacityHide');
         }, timeOuts[2]);
         setTimeout(function () {
-            $('.intro-text2').addClass('opacityHide');
+            introText2.addClass('opacityHide');
         }, timeOuts[3]);
         setTimeout(function () {
-            $('.intro-text3').addClass('opacityHide');
+            introText3.addClass('opacityHide');
         }, timeOuts[4]);
-    });
+    }, timeOuts[1]);
 
-    // $('.intro-divide-line').delay(4300).animate({
-    //     bottom: 0
-    // }, 500, "linear", function () {
-    //     $(this).css('bottom', '-100%');
-    //     $('.introSlideLeft').css('left', '-100%');
-    //     $('.introSlideRight').css('right', '-100%');
-    // });
+    // Curtain animation
+    var introDivideLine = $('.intro-divide-line');
+    var introSlideLeft = $('.introSlideLeft');
+    var introSlideRight = $('.introSlideRight');
     setTimeout(function () {
-        $('.intro-divide-line').addClass('divide-line-show');
-    }, timeOuts[7]);
+        introDivideLine.addClass('divide-line-show');
+        setTimeout(function () {
+            introDivideLine.removeClass('divide-line-show');
+        }, 900);
+    }, timeOuts[5]);
     setTimeout(function () {
-        $('.intro-divide-line').removeClass('divide-line-show');
-    }, timeOuts[8]);
+        introSlideLeft.addClass('leftHide');
+    }, timeOuts[6]);
     setTimeout(function () {
-        $('.introSlideLeft').addClass('leftHide');
-    }, timeOuts[8]);
-    setTimeout(function () {
-        $('.introSlideRight').addClass('rightHide');
-    }, timeOuts[8]);
-
-
-
-
-
+        introSlideRight.addClass('rightHide');
+    }, timeOuts[6]);
 });
