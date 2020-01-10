@@ -241,7 +241,8 @@ a {
 
 .nav-list {
     padding-top: 150px;
-    transition: opacity .5s cubic-bezier(0.92, 0.1, 0.39, 0.84);
+    width: fit-content;
+    transition: opacity 1s cubic-bezier(0.92, 0.1, 0.39, 0.84);
 }
 
 .nav-list-item {
@@ -311,10 +312,6 @@ a {
     margin-right: 5px;
 }
 
-.nav-info-link:hover {
-    color: #adadad;
-}
-
 .nav-info-Email {
     font-size: 14px;
     white-space: nowrap;
@@ -375,6 +372,13 @@ a {
     white-space: nowrap;
     margin-top: -10px;
     padding-left: 2px;
+}
+
+.nav-info-link:hover,
+.nav-link:hover,
+.nav-projects-link:hover,
+.nav-projects-close:hover {
+    color: #adadad;
 }
 
 /* media nav */

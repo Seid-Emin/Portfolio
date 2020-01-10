@@ -67,10 +67,12 @@ $(document).ready(function () {
     // nav projects list
     //show
     $('.nav-link-projects').click(function () {
-        $('.nav-projects-list').toggleClass('z-index550 opacityShow');
-        $('.nav-projects-close').toggleClass('z-index550 opacityShow');
-        $('.nav-projects-list-item').toggleClass('transformMatrix opacityShow');
         $('.nav-list').toggleClass('opacityHide');
+        setTimeout(function () {
+            $('.nav-projects-list').toggleClass('z-index550 opacityShow');
+            $('.nav-projects-close').toggleClass('z-index550 opacityShow');
+            $('.nav-projects-list-item').toggleClass('transformMatrix opacityShow');
+        }, 500);
     });
 
     //hide
@@ -80,6 +82,6 @@ $(document).ready(function () {
         $('.nav-projects-list-item').toggleClass('transformMatrix opacityShow');
         setTimeout(function () {
             $('.nav-list').toggleClass('opacityHide');
-        }, 500);
+        }, 600);
     });
 });
