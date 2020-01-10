@@ -80,7 +80,7 @@
 
 @media screen and (max-width: 1260px) {
     .portfolio-title {
-        font-size: 90px;
+        font-size: 75px;
     }
 }
 
@@ -213,7 +213,7 @@
 
 @media screen and (max-width: 1020px) {
     .project-link {
-        font-size: 14vw;
+        font-size: 12vw;
     }
 }
 
