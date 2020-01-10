@@ -72,7 +72,7 @@ $(document).ready(function () {
             $('.nav-projects-list').toggleClass('z-index550 opacityShow');
             $('.nav-projects-close').toggleClass('z-index550 opacityShow');
             $('.nav-projects-list-item').toggleClass('transformMatrix opacityShow');
-        }, 500);
+        }, 800);
     });
 
     //hide
