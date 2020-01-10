@@ -160,17 +160,17 @@ html {
 
 
 @media screen and (max-width: 400px) {
-    .Intro-Description {
+    .intro-description {
         width: 300px;
     }
 }
 
 @media screen and (max-height: 700px) {
-    .Intro-Button {
+    .intro-button {
         bottom: 90px;
     }
 
-    .Intro-Description {
+    .intro-description {
         bottom: 180px;
     }
 }
