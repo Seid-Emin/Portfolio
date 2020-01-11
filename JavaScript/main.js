@@ -25,7 +25,7 @@ $(document).ready(function () {
     setTimeout(function () {
         mainContent.addClass('opacityShow');
         body.addClass('overFlow');
-        scrollBar.addClass('opacityShow');
+        // scrollBar.addClass('opacityShow');
     }, 2000);
     setTimeout(function () {
         introWindow.addClass('displayNone');

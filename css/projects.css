@@ -47,3 +47,7 @@
 .top100 {
     top: 100%;
 }
+
+.displayNone {
+    display: none;
+}

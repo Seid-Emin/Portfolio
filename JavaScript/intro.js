@@ -26,7 +26,7 @@ $(document).ready(function () {
     setTimeout(function () {
         introDivideLine.addClass('divide-line-show');
         setTimeout(function () {
-            introDivideLine.addClass('divide-line-show');
+            introDivideLine.addClass('displayNone');
         }, 800);
     }, timeOuts[5]);
     setTimeout(function () {

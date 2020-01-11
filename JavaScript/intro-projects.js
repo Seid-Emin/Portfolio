@@ -15,4 +15,8 @@ $(document).ready(function () {
             }, 2070);
         }, 70);
     }, 500);
+
+    setTimeout(function () {
+        $('.projects-intro-window').addClass('displayNone');
+    }, 3640);
 });

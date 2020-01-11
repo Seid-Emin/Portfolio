@@ -73,10 +73,12 @@ html {
     opacity: 0;
 }
 
-
-
 .divide-line-show {
     bottom: 0;
+}
+
+.displayNone {
+    display: none;
 }
 
 .intro-text1 {
