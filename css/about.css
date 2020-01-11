@@ -68,9 +68,8 @@
 }
 
 .footer-about {
-    position: absolute;
-    bottom: 0;
-    padding-left: 10%;
+    position: relative;
+    padding-left: 0;
 }
 
 /* Media about */
