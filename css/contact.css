@@ -51,7 +51,11 @@
     margin-bottom: 20px;
 }
 
-.socialTag:hover {
+.contact-link {
+    padding-right: 15px;
+}
+
+.contact-link:hover {
     color: #FFF;
     font-weight: 700;
 }
