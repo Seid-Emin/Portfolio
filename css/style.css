@@ -139,28 +139,6 @@ a {
     transition: all .6s;
 }
 
-/* media portfolio logo */
-
-@media screen and (max-width: 650px) {
-    .portfolio-logo {
-        left: 30px;
-        height: 100px;
-    }
-
-    .menu-icon {
-        right: 35px;
-        height: 100px;
-    }
-
-    .menu-icon-wrap {
-        width: 40px;
-        height: 10px;
-    }
-}
-
-
-
-
 /* Logo and menu Icon */
 .logo-img {
     width: 45px;
@@ -201,6 +179,31 @@ a {
 
 .menu-icon-bar2 {
     top: 100%;
+}
+
+
+/* media portfolio logo */
+@media screen and (max-width: 740px) {
+    .portfolio-logo {
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .portfolio-logo {
+        left: 5px;
+        height: 100px;
+    }
+
+    .menu-icon {
+        right: 10px;
+        height: 100px;
+    }
+
+    .menu-icon-wrap {
+        width: 40px;
+        height: 10px;
+    }
 }
 
 .nav {
