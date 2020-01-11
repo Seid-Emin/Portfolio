@@ -67,6 +67,12 @@
     color: #828282;
 }
 
+.footer-about {
+    position: absolute;
+    bottom: 0;
+    padding-left: 10%;
+}
+
 /* Media about */
 @media screen and (max-width: 760px) {
     .aboutSection {

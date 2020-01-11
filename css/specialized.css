@@ -1,0 +1,31 @@
+/* intro Section */
+.specialized-intro-bg {
+    background: url('../img/projectImg/specialized/specializedHeaderBG.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 900px) {
+    .specialized-intro-bg {
+        background-position: right;
+    }
+}
+
+
+/* mockUp 1 */
+.specialized-mock1-bg {
+    background: url('../../assets/images/specialized/Moch1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* mockUp 2 */
+.specialized-mock2-bg {
+    background: url('../../assets/images/specialized/IphonemockUp-specialized.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

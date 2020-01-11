@@ -6,14 +6,14 @@
     justify-content: center;
 }
 
-.contactWrap {
+.contact-wrap {
     width: 100%;
     width: 100%;
     position: relative;
     padding: 0 10%;
 }
 
-.contacttitle {
+.contact-title {
     margin-top: 100px;
     font-size: 75px;
     font-weight: 900;
@@ -22,7 +22,7 @@
     transition: all .5s ease-in-out;
 }
 
-.contacttitleThin {
+.contact-title-thin {
     font-size: 55px;
     font-weight: 200;
     font-family: aktiv-grotesk-condensed, sans-serif;
@@ -56,12 +56,18 @@
     font-weight: 700;
 }
 
+.footer-contact {
+    position: absolute;
+    bottom: 0;
+    padding-left: 10%;
+}
+
 @media screen and (max-width:500px) {
     .contact-title {
         font-size: 50px;
     }
 
-    .contact-subtitle {
+    .contact-title-thin {
         font-size: 32px;
     }
 
