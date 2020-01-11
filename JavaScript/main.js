@@ -65,6 +65,7 @@ $(document).ready(function () {
 
 
     // nav projects list
+
     //show
     $('.nav-link-projects').click(function () {
         $('.nav-list').toggleClass('opacityHide');

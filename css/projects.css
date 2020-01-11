@@ -1,0 +1,53 @@
+.projects-intro-window {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 600;
+}
+
+.projects-intro-wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.projects-introSlide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    right: 0;
+    transition: all 1000ms cubic-bezier(1, -0.01, 0.08, 0.89);
+}
+
+.projects-introSlide1 {
+    background-color: #f0f0f0;
+}
+
+.projects-introSlide2 {
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-intro-logo {
+    width: 80px;
+}
+
+.top0 {
+    top: 0;
+}
+
+.top100 {
+    top: 100%;
+}
+
+.content {
+    display: none;
+}
