@@ -15,8 +15,8 @@
 
 /* mockUp 1 */
 .specialized-mock1-bg {
-    background: url('../../assets/images/specialized/Moch1.jpg');
-    background-position: center;
+    background: url('../img/projectImg/specialized/moch1-specialized.jpg');
+    background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@
 
 /* mockUp 2 */
 .specialized-mock2-bg {
-    background: url('../../assets/images/specialized/IphonemockUp-specialized.jpg');
+    background: url('../img/projectImg/specialized/iphoneMockUp-specialized.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
