@@ -34,8 +34,8 @@ $(document).ready(function () {
     // hover efect on projects
     $('.projects-list .project a').hover(function () {
         var classOfHoveredLink = $(this).attr('class').replace('project-link ', '');
-        var imgClassForShow = $('.window-wrap .window div').hasClass(classOfHoveredLink);
-        if (imgClassForShow) {
+        var imgClassToShow = $('.window-wrap .window div').hasClass(classOfHoveredLink);
+        if (imgClassToShow) {
             $('.window-wrap .window div').addClass('opacityImgOnHover');
         }
     }, function () {
