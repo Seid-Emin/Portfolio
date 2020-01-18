@@ -16,8 +16,17 @@
 
 
     /* ------- Legacy ------- */
-    .project-img-legacy {
+    .project-img-legacy,
+    .legacy-intro-bg {
         background: url('../img/projectImg/legacy/LegacyBannerIntroBG.jpg');
+    }
+
+    .legacy-mock1-bg {
+        background: url('../img/projectImg/legacy/Legacy-Mockup1.jpg');
+    }
+
+    .legacy-mock2-bg {
+        background: url('../img/projectImg/legacy/Legacy-Mockup2.jpg');
     }
 
 
