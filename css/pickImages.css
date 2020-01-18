@@ -1,0 +1,8 @@
+    /* ------- Images ------- */
+    .project-img-specialized {
+        background: url('../img/projectImg/specialized/specializedHeaderBG.jpg');
+    }
+
+    .project-img-legacy {
+        background: url('../img/projectImg/legacy/homeBG.jpg');
+    }

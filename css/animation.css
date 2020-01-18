@@ -1,0 +1,46 @@
+/* Classes for animation transition */
+.z-index-10 {
+    z-index: -10;
+}
+
+.z-index550 {
+    z-index: 550;
+}
+
+.opacityShow {
+    opacity: 1;
+}
+
+.opacityHide {
+    opacity: 0;
+}
+
+.topZero {
+    top: 0;
+}
+
+.top50 {
+    top: 50%;
+}
+
+.transformMatrix {
+    transform: matrix(1, 0, 0, 1, 0, 0)
+}
+
+/* ------- Hover on projects ------- */
+.projectBG-active {
+    opacity: 1;
+    z-index: 5;
+}
+
+.projectBG-activeNav {
+    opacity: 1;
+    z-index: 550;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.hideItem {
+    opacity: .2
+}

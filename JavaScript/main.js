@@ -31,17 +31,23 @@ $(document).ready(function () {
         introWindow.addClass('displayNone');
     }, 3400);
 
-    // hover efect on projects
-    $('.projects-list .project a').hover(function () {
-        var classOfHoveredLink = $(this).attr('class').replace('project-link ', '');
-        var imgClassToShow = $('.window-wrap .window div').hasClass(classOfHoveredLink);
+    /* ------- Hover efect on projects ------- */
+    $('.project').hover(function () {
+        var classOfHoveredLink = $(this).attr('class').replace('project project-', '');
+        var imgClassToShow = $('.project-img').hasClass(`project-img-${classOfHoveredLink}`);
         if (imgClassToShow) {
-            $('.window-wrap .window div').addClass('opacityImgOnHover');
+            $('.project-img-' + classOfHoveredLink).toggleClass('projectBG-active');
+            $('.menu-icon').toggleClass('hideItem');
+            $('.logo-img').toggleClass('hideItem');
+            $('.project').toggleClass('hideItem');
+            $('.portfolio-title').toggleClass('hideItem');
+            $('.portfolio-context').toggleClass('hideItem');
+            $('.portfolio-projects-title').toggleClass('hideItem');
+            $('.portfolio-connect').toggleClass('hideItem');
+            $('.footer').toggleClass('hideItem');
+            $(this).removeClass('hideItem');
         }
-    }, function () {
-        $('.window-wrap .window div').removeClass('opacityImgOnHover');
     });
-
 
     // Nav button actvation
     $('.menu-icon-wrap').click(function () {
