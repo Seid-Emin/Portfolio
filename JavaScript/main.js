@@ -97,11 +97,11 @@ $(document).ready(function () {
     $('.project-prevNext div').hover(function () {
         var classOfHoveredLinkPrev = $(this).attr('class').replace('project_prevProject-link-wrap ', '');
         var classOfHoveredLinkNext = $(this).attr('class').replace('project_nextProject-link-wrap ', '');
-        var imgClassToShowPrev = $('.prev-nextProject-window div').hasClass(`project-${classOfHoveredLinkPrev}`);
-        var imgClassToShowNext = $('.prev-nextProject-window div').hasClass(`project-${classOfHoveredLinkNext}`);
+        var imgClassToShowPrev = $('.prev-nextProject-window div').hasClass(`project-prevNext-${classOfHoveredLinkPrev}`);
+        var imgClassToShowNext = $('.prev-nextProject-window div').hasClass(`project-prevNext-${classOfHoveredLinkNext}`);
         if (imgClassToShowPrev || imgClassToShowNext) {
-            $('.project-' + classOfHoveredLinkPrev).toggleClass('projectBG-active');
-            $('.project-' + classOfHoveredLinkNext).toggleClass('projectBG-active');
+            $('.project-prevNext-' + classOfHoveredLinkPrev).toggleClass('projectBG-active');
+            $('.project-prevNext-' + classOfHoveredLinkNext).toggleClass('projectBG-active');
             $('.menu-icon').toggleClass('hideItem');
             $('.logo-img').toggleClass('hideItem');
             $('.project-prevNext div').toggleClass('hideItem');

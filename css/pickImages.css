@@ -1,10 +1,7 @@
     /* ------- Page Images ------- */
 
     /* ------- Specialized ------- */
-    .project-img-specialized {
-        background: url('../img/projectImg/specialized/specializedHeaderBG.jpg');
-    }
-
+    .project-img-specialized,
     .specialized-intro-bg {
         background: url('../img/projectImg/specialized/specializedHeaderBG.jpg');
     }
@@ -20,7 +17,7 @@
 
     /* ------- Legacy ------- */
     .project-img-legacy {
-        background: url('../img/projectImg/legacy/homeBG.jpg');
+        background: url('../img/projectImg/legacy/LegacyBannerIntroBG.jpg');
     }
 
 
@@ -28,10 +25,10 @@
 
 
     /* ------- PrecNext Project Images ------- */
-    .project-specialized {
+    .project-prevNext-specialized {
         background: url('../img/projectImg/specialized/specializedHeaderBG.jpg');
     }
 
-    .project-legacy {
+    .project-prevNext-legacy {
         background: url('../img/projectImg/legacy/LegacyBannerIntroBG.jpg');
     }
