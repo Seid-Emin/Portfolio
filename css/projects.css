@@ -191,6 +191,11 @@
         font-size: 50px;
     }
 
+    .legacy-intro-bg {
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 
@@ -236,6 +241,7 @@
     .projectMPWS-header {
         font-size: 24px;
         margin-bottom: 30px;
+        max-width: 500px;
     }
 
     .projectMPWS-text {
@@ -342,8 +348,14 @@
         font-size: 14px;
     }
 
-    .projectTech-content {
+    .projectTech-content,
+    .projectMPWS-content {
         width: 100%;
+    }
+
+    .projectMPWS-content {
+        max-width: 500px;
+
     }
 
     .projectTech-languages {
@@ -416,50 +428,10 @@
     }
 }
 
-
-/* project closing */
-/* .projectPage-closing {
-    width: 100%;
-    padding: 100px 0;
-    padding-left: 10%;
-    background-color: #000;
-}
-
-.projectPage-closingText {
-    font-size: 14px;
-    font-weight: 300;
-
-}
-
-.projectPage-closingProjectTitle {
-    font-size: 90px;
-    font-weight: 900;
-}
-
-.projectPage-closingLink:hover {
-    color: rgba(240, 240, 240, 0.5)
-}
-
-@media screen and (max-width: 1000px) {
-    .projectPage-closing {
-        margin-top: 0;
-    }
-
-    .projectPage-closingProjectTitle {
-        font-size: 12vw;
-        margin: 1.3vw 0;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .projectPage-closingtext {
-        font-size: 12px;
-    }
-}
-
 .whiteSpaceWrap {
     white-space: normal;
-} */
+}
+
 
 /* ------- PrecNext Project ------- */
 
