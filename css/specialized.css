@@ -1,6 +1,5 @@
 /* intro Section */
 .specialized-intro-bg {
-    background: url('../img/projectImg/specialized/specializedHeaderBG.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,19 +12,20 @@
 }
 
 
-/* mockUp 1 */
-.specialized-mock1-bg {
-    background: url('../img/projectImg/specialized/moch1-specialized.jpg');
-    background-position: 50%;
-    background-size: cover;
+/* mockUp 1 & 2 */
+.specialized-mock1-bg,
+.specialized-mock2-bg {
     background-repeat: no-repeat;
 }
 
+.specialized-mock1-bg {
+    background-position: 50%;
+    background-size: cover;
 
-/* mockUp 2 */
+}
+
 .specialized-mock2-bg {
-    background: url('../img/projectImg/specialized/iphoneMockUp-specialized.png');
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
+
 }

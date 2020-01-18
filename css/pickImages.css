@@ -1,8 +1,37 @@
-    /* ------- Images ------- */
+    /* ------- Page Images ------- */
+
+    /* ------- Specialized ------- */
     .project-img-specialized {
         background: url('../img/projectImg/specialized/specializedHeaderBG.jpg');
     }
 
+    .specialized-intro-bg {
+        background: url('../img/projectImg/specialized/specializedHeaderBG.jpg');
+    }
+
+    .specialized-mock1-bg {
+        background: url('../img/projectImg/specialized/moch1-specialized.jpg');
+    }
+
+    .specialized-mock2-bg {
+        background: url('../img/projectImg/specialized/iphoneMockUp-specialized.png');
+    }
+
+
+    /* ------- Legacy ------- */
     .project-img-legacy {
         background: url('../img/projectImg/legacy/homeBG.jpg');
+    }
+
+
+
+
+
+    /* ------- PrecNext Project Images ------- */
+    .project-specialized {
+        background: url('../img/projectImg/specialized/specializedHeaderBG.jpg');
+    }
+
+    .project-legacy {
+        background: url('../img/projectImg/legacy/LegacyBannerIntroBG.jpg');
     }

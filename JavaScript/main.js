@@ -31,6 +31,7 @@ $(document).ready(function () {
         introWindow.addClass('displayNone');
     }, 3400);
 
+
     /* ------- Hover efect on projects ------- */
     $('.project').hover(function () {
         var classOfHoveredLink = $(this).attr('class').replace('project project-', '');
@@ -91,4 +92,21 @@ $(document).ready(function () {
             $('.nav-list').toggleClass('opacityHide');
         }, 600);
     });
+
+    /* ------- PrecNext Project Hovers ------- */
+    $('.project-prevNext div').hover(function () {
+        var classOfHoveredLinkPrev = $(this).attr('class').replace('project_prevProject-link-wrap ', '');
+        var classOfHoveredLinkNext = $(this).attr('class').replace('project_nextProject-link-wrap ', '');
+        var imgClassToShowPrev = $('.prev-nextProject-window div').hasClass(`project-${classOfHoveredLinkPrev}`);
+        var imgClassToShowNext = $('.prev-nextProject-window div').hasClass(`project-${classOfHoveredLinkNext}`);
+        if (imgClassToShowPrev || imgClassToShowNext) {
+            $('.project-' + classOfHoveredLinkPrev).toggleClass('projectBG-active');
+            $('.project-' + classOfHoveredLinkNext).toggleClass('projectBG-active');
+            $('.menu-icon').toggleClass('hideItem');
+            $('.logo-img').toggleClass('hideItem');
+            $('.project-prevNext div').toggleClass('hideItem');
+            $(this).removeClass('hideItem');
+        }
+    });
+
 });
