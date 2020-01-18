@@ -256,11 +256,16 @@
 .mock2-bg {
     width: 100%;
     height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1920px;
 }
 
 .projectDisplay-mock {
     width: 100%;
-    height: 160vh;
+    height: 100vw;
+    text-align: -webkit-center;
 }
 
 .projectDisplay-mock2 {
@@ -273,13 +278,17 @@
 
 @media screen and (max-width: 1100px) {
     .projectDisplay-mock2 {
-        height: 90vw;
+        height: 60vw;
     }
 }
 
 @media screen and (max-width: 700px) {
     .projectDisplay-mock {
-        height: 90vh;
+        height: 80vw;
+    }
+
+    .legacyDisplay-mock {
+        height: 50vw;
     }
 }
 
