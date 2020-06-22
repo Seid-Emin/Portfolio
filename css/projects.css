@@ -1,28 +1,28 @@
 /* project intro scene vawe */
 .projects-intro-window {
     position: fixed;
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 600;
+    height  : 100vh;
+    width   : 100%;
+    top     : 0;
+    left    : 0;
+    right   : 0;
+    bottom  : 0;
+    z-index : 600;
 }
 
 .projects-intro-wrap {
-    width: 100%;
-    height: 100%;
+    width   : 100%;
+    height  : 100%;
     position: relative;
 }
 
 .projects-introSlide {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: -100%;
-    left: 0;
-    right: 0;
+    width     : 100%;
+    height    : 100%;
+    position  : absolute;
+    top       : -100%;
+    left      : 0;
+    right     : 0;
     transition: all 1000ms cubic-bezier(1, -0.01, 0.08, 0.89);
 }
 
@@ -32,9 +32,9 @@
 
 .projects-introSlide2 {
     background-color: #141414;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
 }
 
 .projects-intro-logo {
@@ -57,49 +57,51 @@
 
 /* projectIntro */
 .projectIntro {
-    width: 100%;
-    height: 100vh;
+    width   : 100%;
+    height  : 100vh;
     position: relative;
 }
 
 .projectIntro-bg {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    opacity: .6;
+    width            : 100%;
+    height           : 100%;
+    position         : absolute;
+    opacity          : .6;
+    background-repeat: no-repeat;
+    background-size  : cover;
 }
 
 .projectIntro-scroll {
-    position: absolute;
-    font-size: 10px;
+    position      : absolute;
+    font-size     : 10px;
     letter-spacing: 2px;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    bottom        : 20px;
+    left          : 50%;
+    transform     : translateX(-50%);
 }
 
 .projectIntro-content {
-    width: 100%;
+    width   : 100%;
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    bottom  : 0;
+    left    : 0;
+    right   : 0;
 }
 
 .projectIntro-contentWrap {
-    width: 100%;
-    max-width: 1920px;
-    height: 100%;
-    margin: 0 auto;
-    position: relative;
+    width       : 100%;
+    max-width   : 1920px;
+    height      : 100%;
+    margin      : 0 auto;
+    position    : relative;
     padding-left: 10%;
 }
 
 .projectIntro-title {
-    font-size: 100px;
-    font-family: aktiv-grotesk-condensed, sans-serif;
-    font-weight: 900;
-    font-style: normal;
+    font-size     : 100px;
+    font-family   : aktiv-grotesk-condensed, sans-serif;
+    font-weight   : 900;
+    font-style    : normal;
     text-transform: uppercase;
 }
 
@@ -108,22 +110,22 @@
 }
 
 .projectIntro-links {
-    width: 350px;
-    padding-left: 10px;
-    display: flex;
+    width          : 350px;
+    padding-left   : 10px;
+    display        : flex;
     justify-content: space-between;
 }
 
 .projectIntro-linkWrap {
-    width: 100%;
+    width        : 100%;
     margin-bottom: 10px;
 }
 
 .projectIntro-link {
-    font-size: 16px;
-    font-weight: 600;
+    font-size     : 16px;
+    font-weight   : 600;
     text-transform: uppercase;
-    white-space: nowrap;
+    white-space   : nowrap;
 }
 
 .projectIntro-link:hover {
@@ -133,21 +135,21 @@
 
 
 .projectIntro-descriptions {
-    padding-left: 10px;
+    padding-left : 10px;
     margin-bottom: 80px;
 }
 
 .projectIntro-type {
-    font-size: 12px;
+    font-size     : 12px;
     text-transform: uppercase;
-    margin-bottom: 10px;
-    white-space: nowrap;
+    margin-bottom : 10px;
+    white-space   : nowrap;
 }
 
 .projectIntro-date {
-    font-size: 12px;
+    font-size     : 12px;
     text-transform: uppercase;
-    white-space: nowrap;
+    white-space   : nowrap;
 }
 
 
@@ -172,12 +174,12 @@
 
 @media screen and (max-width: 570px) {
     .projectIntro-title {
-        font-size: 50px;
+        font-size    : 50px;
         margin-bottom: 10px;
     }
 
     .projectIntro-link {
-        font-size: 16px;
+        font-size  : 16px;
         font-weight: 600;
     }
 
@@ -193,21 +195,21 @@
 
     .legacy-intro-bg {
         background-position: 50%;
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-size    : cover;
+        background-repeat  : no-repeat;
     }
 }
 
 
 /* MPWS text Section  */
 .projectMPWS {
-    width: 100%;
-    padding: 100px 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width           : 100%;
+    padding         : 100px 40px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
     background-color: #FFF;
-    color: #141414;
+    color           : #141414;
 }
 
 .projectMPWS-content {
@@ -215,33 +217,33 @@
 }
 
 .projectMPWS-header {
-    font-size: 32px;
-    font-weight: 700;
+    font-size     : 32px;
+    font-weight   : 700;
     text-transform: uppercase;
-    white-space: nowrap;
-    margin-bottom: 40px;
+    white-space   : nowrap;
+    margin-bottom : 40px;
 }
 
 
 
 .projectMPWS-text {
-    padding-left: 300px;
-    line-height: 24px;
+    padding-left : 300px;
+    line-height  : 24px;
     margin-bottom: 20px;
 }
 
 @media screen and (max-width: 800px) {
     .projectMPWS-text {
-        padding: 0;
+        padding  : 0;
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .projectMPWS-header {
-        font-size: 24px;
+        font-size    : 24px;
         margin-bottom: 30px;
-        max-width: 500px;
+        max-width    : 500px;
     }
 
     .projectMPWS-text {
@@ -260,23 +262,23 @@
 /* mockUp(s) */
 .mock1-bg,
 .mock2-bg {
-    width: 100%;
-    height: 100%;
-    background-size: contain;
+    width              : 100%;
+    height             : 100%;
+    background-size    : contain;
     background-position: center;
-    background-repeat: no-repeat;
-    max-width: 1920px;
+    background-repeat  : no-repeat;
+    max-width          : 1920px;
 }
 
 .projectDisplay-mock {
-    width: 100%;
-    height: 100vw;
+    width     : 100%;
+    height    : 100vw;
     text-align: -webkit-center;
 }
 
 .projectDisplay-mock2 {
-    width: 100%;
-    height: 100vh;
+    width           : 100%;
+    height          : 100vh;
     background-color: #000;
 }
 
@@ -303,13 +305,13 @@
 
 /* Tech */
 .projectTech {
-    width: 100%;
-    padding: 100px 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width           : 100%;
+    padding         : 100px 40px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
     background-color: #FFF;
-    color: #141414;
+    color           : #141414;
 }
 
 .projectTech-content {
@@ -317,24 +319,24 @@
 }
 
 .projectTech-header {
-    font-size: 32px;
-    font-weight: 700;
+    font-size     : 32px;
+    font-weight   : 700;
     text-transform: uppercase;
-    white-space: nowrap;
-    margin-bottom: 40px;
+    white-space   : nowrap;
+    margin-bottom : 40px;
 }
 
 .projectTech-text {
-    padding-left: 300px;
-    line-height: 24px;
+    padding-left : 300px;
+    line-height  : 24px;
     margin-bottom: 20px;
 }
 
 .projectTech-languages {
-    padding-left: 300px;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 32px;
+    padding-left  : 300px;
+    font-size     : 16px;
+    font-weight   : 600;
+    line-height   : 32px;
     text-transform: uppercase;
 }
 
@@ -344,7 +346,7 @@
 
 @media screen and (max-width: 800px) {
     .projectTech-text {
-        padding: 0;
+        padding  : 0;
         font-size: 14px;
     }
 
@@ -365,7 +367,7 @@
 
 @media screen and (max-width: 500px) {
     .projectTech-header {
-        font-size: 24px;
+        font-size    : 24px;
         margin-bottom: 30px;
     }
 
@@ -379,13 +381,13 @@
 
 /* mobile text Section  */
 .project-mobile {
-    width: 100%;
-    padding: 100px 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width           : 100%;
+    padding         : 100px 40px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
     background-color: #FFF;
-    color: #141414;
+    color           : #141414;
 }
 
 .project-mobile-content {
@@ -393,29 +395,29 @@
 }
 
 .project-mobile-header {
-    font-size: 32px;
-    font-weight: 700;
+    font-size     : 32px;
+    font-weight   : 700;
     text-transform: uppercase;
-    white-space: normal;
-    margin-bottom: 40px;
+    white-space   : normal;
+    margin-bottom : 40px;
 }
 
 .project-mobile-text {
-    padding-left: 300px;
-    line-height: 24px;
+    padding-left : 300px;
+    line-height  : 24px;
     margin-bottom: 20px;
 }
 
 @media screen and (max-width: 800px) {
     .project-mobile-text {
-        padding: 0;
+        padding  : 0;
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .project-mobile-header {
-        font-size: 24px;
+        font-size    : 24px;
         margin-bottom: 30px;
     }
 
@@ -436,20 +438,20 @@
 /* ------- PrecNext Project ------- */
 
 .prev-nextProject-window {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
+    width          : 100%;
+    height         : 100vh;
+    position       : absolute;
+    top            : 0;
+    left           : 0;
+    display        : flex;
     justify-content: center;
-    align-items: center;
-    z-index: 1;
+    align-items    : center;
+    z-index        : 1;
 }
 
 .prev-nextProject-wrap {
-    display: flex;
-    position: relative;
+    display         : flex;
+    position        : relative;
     background-color: #141414;
 
 }
@@ -457,40 +459,40 @@
 .project_prevProject,
 .project_nextProject,
 .projectMobile-wrap {
-    width: 100%;
-    height: 100vh;
+    width   : 100%;
+    height  : 100vh;
     position: relative;
 }
 
 .project_prevProject-bg,
 .project_nextProject-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
+    position           : absolute;
+    width              : 100%;
+    height             : 100%;
+    opacity            : 0;
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 1;
-    transition: .5s ease-in;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    z-index            : 1;
+    transition         : .5s ease-in;
     transition-property: opacity, z-index;
 }
 
 .project_prevProject-content,
 .project_nextProject-content {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
+    width   : 100%;
+    height  : 100%;
+    z-index : 2;
 }
 
 .project_prevProject-link-wrap,
 .project_nextProject-link-wrap {
-    position: absolute;
-    bottom: 250px;
-    left: 200px;
+    position  : absolute;
+    bottom    : 250px;
+    left      : 200px;
     transition: opacity .5s ease;
-    z-index: 3;
+    z-index   : 3;
 }
 
 .project_prevProject-link-subText,
@@ -500,8 +502,8 @@
 
 .project_prevProject-link,
 .project_nextProject-link {
-    font-size: 50px;
-    color: var(--color-white-);
+    font-size  : 50px;
+    color      : var(--color-white-);
     font-weight: 600;
 }
 
@@ -511,7 +513,7 @@
     .project_prevProject-link-wrap,
     .project_nextProject-link-wrap {
         bottom: 150px;
-        left: 105px;
+        left  : 105px;
     }
 }
 
@@ -520,13 +522,13 @@
     .project_prevProject-link-wrap,
     .project_nextProject-link-wrap {
         bottom: 150px;
-        left: 105px;
+        left  : 105px;
     }
 
     .project_nextProject-link-wrap {
         text-align: end;
-        right: 20%;
-        left: 20px;
+        right     : 20%;
+        left      : 20px;
     }
 }
 
@@ -542,14 +544,14 @@
 
     .project_prevProject-link-wrap {
         bottom: 50%;
-        left: 10%;
+        left  : 10%;
     }
 
 
     .project_nextProject-link-wrap {
         text-align: end;
-        bottom: 50%;
-        right: 10%;
+        bottom    : 50%;
+        right     : 10%;
     }
 
     .project_prevProject-link,
@@ -565,8 +567,8 @@
 
     .prev-nextProject-window {
         overflow: hidden;
-        height: 100%;
-        width: 100%;
+        height  : 100%;
+        width   : 100%;
     }
 
     .project_prevProject,

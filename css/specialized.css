@@ -1,8 +1,8 @@
 /* intro Section */
 .specialized-intro-bg {
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size    : cover;
+    background-repeat  : no-repeat;
 }
 
 @media screen and (max-width: 900px) {
@@ -20,12 +20,12 @@
 
 .specialized-mock1-bg {
     background-position: 50%;
-    background-size: cover;
+    background-size    : cover;
 
 }
 
 .specialized-mock2-bg {
     background-position: center;
-    background-size: contain;
+    background-size    : contain;
 
 }

@@ -30,6 +30,21 @@
     }
 
 
+    /* ------- myMoviesCollections ------- */
+    .project-img-myMoviesCollections,
+    .myMoviesCollections-intro-bg {
+        background: url('../img/projectImg/myMoviesCollections/myMoviesCollections_Banner.png');
+    }
+
+    .myMoviesCollections-mock1-bg {
+        background: url('../img/projectImg/myMoviesCollections/collectionGrid.png');
+    }
+
+    .myMoviesCollections-mock2-bg {
+        background: url('../img/projectImg/myMoviesCollections/collectionList.png');
+    }
+
+
 
 
 
@@ -40,4 +55,8 @@
 
     .project-prevNext-legacy {
         background: url('../img/projectImg/legacy/LegacyBannerIntroBG.jpg');
+    }
+
+    .project-prevNext-myMoviesCollections {
+        background: url('../img/projectImg/myMoviesCollections/myMoviesCollections_Banner.png');
     }
