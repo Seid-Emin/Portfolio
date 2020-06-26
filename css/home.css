@@ -172,7 +172,7 @@
     outline       : none;
     color         : #f0f0f0;
     opacity       : 1;
-    white-space   : inherit;
+    white-space   : nowrap;
     transition    : transform opacity 2s ease-in-out;
 }
 
@@ -192,9 +192,15 @@
     opacity: .85;
 }
 
-@media screen and (max-width: 1732px) {
+@media screen and (max-width: 1800px) {
     .portfolio-projects {
         margin-top: 140px;
+    }
+}
+
+@media screen and (max-width: 1732px) {
+    .project-link {
+        white-space: inherit;
     }
 }
 
