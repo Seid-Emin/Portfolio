@@ -163,6 +163,10 @@
     .projectIntro-bg {
         background-position: right;
     }
+
+    .projectIntro-bg.myMoviesCollections-intro-bg {
+        background-position: center;
+    }
 }
 
 @media screen and (max-width: 740px) {
@@ -197,6 +201,12 @@
         background-position: 50%;
         background-size    : cover;
         background-repeat  : no-repeat;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .projectIntro-title {
+        font-size: 45px;
     }
 }
 
