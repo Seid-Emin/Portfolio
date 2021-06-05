@@ -1,6 +1,6 @@
 # Portfolio
 
-Check out the Final Product @ http://seid-saydahmed.site/
+Check out the Final Product @ https://seid-emin.github.io/Portfolio/
 
 HTML, CSS, JavaScript, React.js (React - Redux)
 
